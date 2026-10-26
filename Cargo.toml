@@ -1,0 +1,11 @@
+[package]
+name = "ce-store"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+blake3 = "1"
+reed-solomon-erasure = "6"
+
+[profile.release]
+opt-level = 3
